@@ -33,9 +33,33 @@ In this coursework, you can make some assumptions to the data if they are not sp
 Based on the description in the previous section, design your tables for DurianPC. The table design should be in the third normal form (3NF) and should not have m:m relationships in the ER diagram. You need to provide both the ER diagram and the SQL create table statements. ER diagrams can be generated automatically from phpMyAdmin or other tools. You don’t have to manually draw everything.
 
 
+#### Part 2
+
+In the second part, you are required to write queries based on the model answer.    The table design of the model answer is shown below, an SQL containing all CREATE TABLE statements is also available on the module page. Once done, save all of these SELECT statements in “answer.txt” or “answer.   sql”.
 
 
+1. Get the retail store(s) that has sold the most amount of powerhouse laptops. In the result, list the
+name(s) of the retail store(s) and the amount sold.
 
+2. Get the staff names and their associated department names for the email account
+“manager.club@durian.pc”.
 
+3. List all staff members in the finance department (‘Finance’, case sensitive) whose current baseline
+salary is higher than the highest base salary of the sales department (‘Sales’, also case sensitive).
+
+4. Get the list of email accounts for those who work in an office alone (share no office with others).
+In the result, only list staff members’ personal email accounts (email type is ‘personal’, case
+sensitive).
+
+5. Get the difference between the highest baseline salary and the second highest baseline salary of all
+staff members. Multiple cases of highest salaries should be considered as a single case, same for
+the second highest salaries (For example, for four salaries 2000, 2000, 1800 and 1800, the
+difference should be 200). The result should have a single column “diff” and a single value. You
+are not allowed to use the LIMIT keyword
+
+6. Get the list of all staff members who once did quality checking in the factory and checked at least
+one computer, but then changed to a different role and have worked as the new role for at least
+for one month. Assume that the role does quality checking is called “QA staff”, role names are
+case sensitive. In the result, list staff names and staff accounts.
 
 

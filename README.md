@@ -1,5 +1,7 @@
 ## Database-task
 
+数据库
+
 #### Part 1
 
 DurianPC aims to become a top-notch manufacturer of desktop and laptop computers in the Lukewarm Kingdom. The company was just formed recently but has already received abundant funding from investors all over the kingdom. The company has made a lot of decisions on the structure and operations of the company, which will be shown in the next section. In this coursework, your task is to:
